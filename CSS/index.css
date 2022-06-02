@@ -5,10 +5,9 @@
      font-size: 62.5%;
  }
 
-h1{ color: goldenrod;
+.titulo{ color: goldenrod;
     font-family: 'Courier New', Courier, monospace;
     font-size: 4em;
-    animation: saltar 1s infinite cubic-bezier(0.46, 0.47, 0.49, 0.5);
 }
 
 .leon-de-fondo{ 
@@ -24,6 +23,7 @@ h1{ color: goldenrod;
     background-color: rgba(0, 0, 0, 0.851);
     padding: 10px;
     text-align: end;
+    margin-bottom: 0rem;
 }
 
 .encabezado li{
@@ -31,6 +31,7 @@ h1{ color: goldenrod;
     padding: 1px;
     color: antiquewhite;
     text-decoration: none;
+    
 }
 .encabezado li a{
     text-decoration: none;
@@ -63,11 +64,13 @@ h1{ color: goldenrod;
         background-color: rgba(13, 13, 13, 0.944);
         list-style-type: none;
         padding: 1%;
+        margin-bottom: 0rem;
     }
 
 .links li{ 
     display: inline-block;
     padding: 10px;
+    
  }
 .links li a {
         color: rgba(255, 250, 250, 0.925);
@@ -75,6 +78,7 @@ h1{ color: goldenrod;
         font-size: 2em;
         transition: .6s;
         padding: 25px 25px 25px 25px;
+        
 }        
 
 .links li a:hover{color: rgb(0, 0, 0);
@@ -92,9 +96,6 @@ h1{ color: goldenrod;
 .contenedor-logo{
     background-color: rgba(13, 13, 13, 0.944);
     padding: 10px;
-    width: 105px;
-    height: 125px;
-    transform: translate(0px, -37px);
 
 }
 .contenedor-logo img{
@@ -103,15 +104,16 @@ h1{ color: goldenrod;
 }
    
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 951px) {
     .contenedor-logo{
         background-color: rgba(13, 13, 13, 0.944);
         flex-grow: 1;
         text-align: center;
+        flex-wrap: wrap;
     }
     
 }
-@media screen and (max-width: 846px) {
+@media screen and (max-width: 951px) {
     .contenedor{
         font-size: .8em;
     }
@@ -127,7 +129,7 @@ h1{ color: goldenrod;
     word-spacing: normal;
     position: relative;
 }
-@media screen and (max-width: 846px) {
+@media screen and (max-width: 853px) {
     .middle-leon{
         font-size: .8em;
     }
@@ -257,7 +259,6 @@ background-repeat: no-repeat;
 .grid5 p{
     padding: 4rem;
     text-align: center;
-    height: 4.7rem;
 }
 .grid5 img{
     height: 17rem; 
@@ -422,6 +423,7 @@ flex-grow: 1 ;
     background-color: rgba(0, 0, 0, 0.971);
     padding: 20px;
     text-align: end;
+    margin-bottom: 0rem;
 } 
 .final-pagina li{ display: inline;
     padding: 10px;
@@ -752,7 +754,7 @@ background-color: rgba(255, 255, 255, 0.363);
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/especies.jpg);
-    height: 76rem;
+    height: 74rem;
 
 
    
@@ -763,6 +765,7 @@ background-color: rgba(255, 255, 255, 0.363);
     background-color: rgba(0, 0, 0, 0.507);
     padding: 10px;
     text-align: end;
+    margin-bottom: 0rem;
 }
 
 .encabezado-especies li{
@@ -785,17 +788,19 @@ background-color: rgba(255, 255, 255, 0.363);
 }
 
     .fondo-middle-especies{ 
-        background-color: #ffc; 
-        background-color: rgb(230, 230, 227); 
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    ;
+    height: 29rem;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: black;
-
-    }
+        background-image: url(../img/averrr.jpg);
+    }  
 
     .middle-especies { 
         padding: 17%;
-        width: 300px;
         height: 0px;
         word-spacing: normal;
         position: relative;
@@ -836,20 +841,5 @@ background-color: rgba(255, 255, 255, 0.363);
          background-size: cover;
          background-repeat: no-repeat;
     }
-@keyframes saltar{
-    0%{
-        transform: translatey(0);
-    }
-    30%{
-        transform: translatey(-10px);
-        color: #246355;
-    }
-    60%{
-        transform: translatey(-20px);
-        color: #0F362D;
-    }
-    100%{
-        transform: translatey(-30px);
-        color:#fc0101
-    }
-}
+
+
