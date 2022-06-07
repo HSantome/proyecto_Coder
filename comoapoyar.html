@@ -7,6 +7,7 @@
     <title>Reserva León</title>
     <link rel="shortcut icon" href="./img/logoblanco.png">
     <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
 </head>
 <body>
     <header class="hipopotamo-de-fondo">
@@ -49,63 +50,84 @@
                 </nav>
             </div>
         </section>
-        <section class="middle-rino">
-            <div>
-                <h1 class="titulo">RESERVA LEON</h1>
-            </div>
-            <div class="frase-principal-leon">
-                <p>Si estás interesado en participar con nosotros, contáctanos, juntos descubriremos en qué etapa de nuestro plan de trabajo puedes apoyar.
-                </p>
-             </div>  
-        </section>
     </header>
-    <section class="segunda-parte">
-        <div>
-            <p>
-                Si estás interesado en participar con nosotros, contáctanos, juntos descubriremos en qué etapa de nuestro plan de trabajo puedes apoyar.
-            </p>
-        </div>
-    </section>
-    <section class="prueba-section-rino">
-        <div class="prueba-div-rino">
-            <h2>
-                Te invitamos a participar de nuestro proyecto
-            </h2>
-        </div>
-        <div>
-            <button class="haz-un-donativo">
-                <a href="https://www.paypal.com/ar/signin">HAZ UN DONATIVO</a> 
-            </button>
-        </div>
-        <div>
-            <button class="se-voluntario">
-                <a href="contacto.html">SÉ VOLUNTARIO</a>
-            </button>
-        </div>
-    </section>
 
+    <main class="fondo-donar">
+        <section class="segunda-parte">
+            <div class="prueba-div-rino">
+                    <h2>
+                        Si estás interesado en participar con nosotros, contáctanos, juntos descubriremos en qué etapa de nuestro plan de trabajo puedes apoyar.
+                    </h2>
+           </div>
+        </section>
+        <section class="section-botones">
+            <div>
+                <h1 class="quiero-ayudar">
+                    QUIERO AYUDAR
+                </h1>
+            </div>
+            <div class="botones">
+                <article>
+                    <button class="haz-un-donativo">
+                        <a href="https://www.paypal.com/ar/signin">HAZ UN DONATIVO</a> 
+                    </button>
+                </article>
+                <article>
+                    <button class="se-voluntario">
+                        <a href="contacto.html">SÉ VOLUNTARIO</a>
+                    </button>
+                </article>
+
+            </div>
+        </section>
+    </main>
+    
     <footer>
         <section class="fondo-de-footer" >
            <span class="fondo-redes-sociales">
                <div class="redes-sociales-texto">
-                   <h2>¡Únete a nuestra comunidad!</h2>
+                   <h2 class="fw-bold">¡Únete a nuestra comunidad!</h2>
                </div>
                <div class="redes-sociales">
                    <picture class="redes-sociales-facebook">
-                       <a href="https://es-la.facebook.com/"> <img src="./img/logofacebook.png"/></a>
+                       <a href="https://es-la.facebook.com/"> <img src="./img/logofacebook.png" class="img-fluid"/></a>
                    </picture >
                    <picture class= "redes-sociales-instagram">
-                       <a href="https://www.instagram.com/"> <img src="./img/logoinstagram.png"/></a>
+                       <a href="https://www.instagram.com/"> <img src="./img/logoinstagram.png" class="img-fluid"/></a>
                    </picture>
                </div>
            </span>
            <span class="fondo-de-logo-footer" >
                <div>
-                   <a href="index.html"><img src="./img/logoblanco.png"/></a>
+                   <a href="index.html"><img src="./img/logoblanco.png" class="img-fluid" /></a>
                </div>   
            </span> 
            <span class="fondo-info">
-               <p>Contenidoo</p>
+               <div class="redes-sociales-texto"> 
+                   <h2 class="fw-bold">Accesos directos</h2>
+               </div>
+               <div class="vinculos-footer">
+                   <nav>
+                       <ul class="fw-bold">
+                           <li>
+                               <a href="index.html">INICIO</a>
+                           </li>
+                           <li>
+                               <a href="especies.html">ESPECIES</a>
+                           </li>
+                                
+                           <li>
+                               <a href="comoapoyar.html">¿CÓMO APOYAR?</a>
+                           </li>
+                           <li>
+                               <a href="nosotros.html">NOSOTROS</a>
+                           </li>
+                           <li>
+                               <a href="contacto.html">CONTACTO</a>
+                           </li>
+                       </ul>
+                   </nav>
+               </div>
            </span>
         </section>
         <section>
@@ -119,6 +141,6 @@
                </nav>
            </div>
        </section> 
-   </footer> 
+   </footer>       
 </body>
 </html>

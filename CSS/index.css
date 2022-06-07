@@ -15,7 +15,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/leon.jpg);
-    height: 74rem;
+    height: 75rem;
 }
 .encabezado{
     font-family: 'Courier New', Courier, monospace;
@@ -102,8 +102,11 @@
     width: 10.5em;
     height: 12.5em;
 }
-   
-
+@media screen and (max-width: 1200px){
+    .fondo-formulario{
+        height: 75rem;
+    }  
+    }
 @media screen and (max-width: 951px) {
     .contenedor-logo{
         background-color: rgba(13, 13, 13, 0.944);
@@ -140,9 +143,10 @@
     font-size: 3em;
     color:rgba(255, 255, 255, 0.822);
     word-spacing: normal;
-position:absolute
-
+    position: absolute;
+    box-sizing:content-box;
 }
+
 .fondo-de-nota-leon{  
     height: 700px;
      background-position: center;
@@ -158,18 +162,31 @@ position:absolute
     }
     
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
     .fondo-de-nota-leon{
         flex-direction: column;
     }
+    .logo-video{
+        margin-top: 1rem;
+    }
     
 }
+@media screen and (max-width: 800px) {
+    .fondo-de-nota-letras-2{
+       width: 1rem;
+    } 
+    .video_index{
+        width: 1rem;
+    }
+}
+
+
 .fondo-de-nota-letras-leon-1{ 
     font-family:  'Macondo', cursive;
     font-size: 2em;
     color:#ecb85c;
     flex-grow: 1;
-    background-color: rgba(0, 0, 0, 0.803);
+    background-color: rgba(0, 0, 0, 0.689);
 }
 .fondo-de-nota-letras-leon-2{ 
     font-family:  'Macondo', cursive;
@@ -178,13 +195,27 @@ position:absolute
     flex-grow: 1;
 }
 
-
 .letras-fondo-elefante{
 
-    margin-top: 140px;
+    margin-top: 20rem;
     text-transform: uppercase;
-    padding: 30px;
-  
+    padding: 30px; 
+}
+.letras-fondo-elefante p{
+    text-align: left;
+    margin-top: 7rem;
+
+}
+
+.video_index{
+    width: 78rem;
+}
+.logo-video{
+width: 20rem;
+text-align: center;
+margin-top: 25rem;
+margin-left: 27rem;
+
 }
 
 .grid-area{
@@ -261,7 +292,7 @@ background-repeat: no-repeat;
     text-align: center;
 }
 .grid5 img{
-    height: 17rem; 
+    height: 12rem; 
     text-align: center;
 }
 .span{
@@ -340,7 +371,7 @@ background-repeat: no-repeat;
 .fondo-redes-sociales{
     
     background-color: rgba(218, 165, 32, 0.566);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  'Macondo', cursive;
     color: rgb(0, 0, 0);
     width: 300px;
     height: 200px;
@@ -348,13 +379,17 @@ background-repeat: no-repeat;
 }
 .redes-sociales-texto{
     text-align: center;
-    font-size: 1.7em;
+    font-size: 6em;
+    margin-top: 2rem;
+    font-size: 6em;
+    
 }
 .redes-sociales{ 
     display: flex;
     text-align: center;
     margin-left: 7.4rem;
     margin-right: 7.4rem;
+    margin-bottom: 2rem;
     
 
 }
@@ -417,10 +452,11 @@ flex-grow: 1 ;
     height: 200px;
     background-color: rgba(218, 165, 32, 0.566);
     flex-grow: 1;
+    text-decoration: none;
 }
 .final-pagina{ font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
-    background-color: rgba(0, 0, 0, 0.971);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     text-align: end;
     margin-bottom: 0rem;
@@ -429,6 +465,32 @@ flex-grow: 1 ;
     padding: 10px;
     color: goldenrod;     
     }
+
+.vinculos-footer{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        list-style-type: none;
+        text-align: center;
+        text-transform: uppercase;
+        
+}
+.vinculos-footer ul{
+    margin-top: 2rem;
+}
+.vinculos-footer li{
+    list-style-type: none;  
+}
+.vinculos-footer li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.vinculos-footer li a:hover{
+    color:#ffffff;
+    transform: scale(0,07);
+    }
+
+
+
 
 
 
@@ -446,6 +508,7 @@ flex-grow: 1 ;
         background-color: rgba(0, 0, 0, 0.69);
         padding: 10px;
         text-align: end;
+        margin-bottom: 0rem;
     }
 .encabezado-hipo li{
         display: inline-block;
@@ -464,7 +527,7 @@ flex-grow: 1 ;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/rinoceronte1.jpg);
-    height: 76rem;
+    height: 75rem;
 
 }
 .middle-rino { 
@@ -476,11 +539,12 @@ flex-grow: 1 ;
 
 .segunda-parte{ 
     padding: 112px;
-    background-image: linear-gradient(to right top, #c4c4c4, #d2d2d2, #e1e1e1, #f0f0f0, #ffffff);
     padding: 112px;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
+    font-family: 'Macondo', cursive; 
+    font-size: 1.7em;
+    
 
 }
 .fondo-de-nota-rino{  
@@ -494,12 +558,51 @@ flex-grow: 1 ;
     
 }
 
-.fondo-de-nota-letras-rino{   background-color: #ffc;
+.fondo-donar{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/fondojirafa.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+@media screen and (max-width: 1100px){
+    .fondo-donar{
+        flex-direction: column;
+    }
+}
+.fondo-de-nota-letras-rino{  
     padding: 112px;
 }
-.prueba-section-rino{
-   background-color: #ffc;
+.section-botones{
+    background-color: #000000c4;
+    color: white;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.quiero-ayudar{
+    margin-top: 10rem;
+    font-size: 1.7em;
+}
+.botones{
+  color: white;
     padding: 112px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
+}
+@media screen and (max-width: 500px){
+    .botones{
+        flex-direction: column;
+    }
 }
 .haz-un-donativo{
     background: rgb(222, 230, 222);
@@ -514,9 +617,11 @@ flex-grow: 1 ;
     width: 175px;
     height: 100px;
     
+    
 } 
 .haz-un-donativo a{
     text-decoration: none;
+    color: #000000;
 }
 .se-voluntario{ background: rgb(204, 255, 204);
     border: medium solid rgb(0, 0, 0);
@@ -532,6 +637,7 @@ flex-grow: 1 ;
 }
 .se-voluntario a{
     text-decoration: none;
+    color: #000000;
 }
     
 
@@ -548,6 +654,7 @@ flex-grow: 1 ;
     background-color: rgba(0, 0, 0, 0.668);
     padding: 10px;
     text-align: end;
+    margin-bottom: 0rem;
 }
 .encabezado-elef li{
     display: inline-block;
@@ -562,8 +669,11 @@ flex-grow: 1 ;
 }
 
 .elefante-de-fondo{ 
-    background-color: #d9e6e4;
-    height: 30rem;
+    background-image: url(../img/fondo.jpg);
+    height: 77rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -592,7 +702,7 @@ height: 388px;
     color:black;
 }
 .fondo-formulario{
-    height: 50rem;
+    height: 66rem;
     background-image: url(../img/fondoformulario.jpg);
     background-position: center;
     background-size: cover;
@@ -600,9 +710,11 @@ height: 388px;
     display: flex;
     flex-direction: column;
 }
+
 .fondo-formulario-letras{
 flex-grow: 1;
 font-family:'Macondo', cursive;
+margin-top: 3rem;
 }
 .fondo-formulario-letras h1{
     color: #000000;
@@ -623,19 +735,19 @@ font-family:'Macondo', cursive;
         margin-right: 0%;
     }
 }
+@media screen and (max-width: 700px){
+    .letras-main-form{
+       font-size: 1em;
+    }
+}
 @media screen and (max-width: 480px){
     .fondo-formulario{
-        height: 62rem;
+        height: 75rem;
     }
-    .fondo-formulario p{
-        font-size: .7em;
-    }
-    .fondo-formulario h1{
-        font-size: 1em;
-    }
+  
     
 }
-.form{
+.formm{
 flex-grow: 1;
 }
 .fondo-formulario h1{
@@ -643,8 +755,8 @@ flex-grow: 1;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.fondo-formulario p{
-    font-size: 1.5em;
+.letras-main-form{
+    font-size: 1.8em;
     color: black;
 }
 .fondo-formulario form{
@@ -658,7 +770,7 @@ flex-grow: 1;
     text-align: start;
     background-color: rgba(0, 0, 0, 0.248);
 }
-.field{
+.fieldd{
 border: solid 1px grey;
 padding: 10px;
 }
@@ -675,7 +787,10 @@ padding: 10px;
     
 }
 
-
+footer h2{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
@@ -695,6 +810,7 @@ padding: 10px;
     background-color: rgba(0, 0, 0, 0.459);
     padding: 10px;
     text-align: end;
+    margin-bottom: 0rem;
 }
 .encabezado-noso li{
     display: inline-block;
@@ -725,14 +841,22 @@ background-color: rgba(255, 255, 255, 0.363);
 }
     
 
-
-.segunda-nosotros{
+.fondo-nosotros{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/fondoleon.jpg);
+}
+.section-nosotros{
     padding: 20px;
-    background-image: linear-gradient(to right top, #e6db77, #e4db6a, #e2db5c, #dfdc4d, #dcdc3c);
+    background-image: linear-gradient(to right top, #e6db77b2, #e4dc6aab, #e2db5caf, #dfdd4db5, #dcdc3ca8);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color:rgb(0, 0, 0);
     word-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     
 }
 .segunda-nosotros-div1{
@@ -743,8 +867,14 @@ background-color: rgba(255, 255, 255, 0.363);
     
 }
 
+.segunda-nosotros-ul{
+    margin-left: 3rem;
+}
 
-
+.nosotros-texto{
+    font-family:  'Macondo', cursive;
+    font-size: 30px;
+}
 
 
 
@@ -754,7 +884,7 @@ background-color: rgba(255, 255, 255, 0.363);
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/especies.jpg);
-    height: 74rem;
+    height: 76rem;
 
 
    
@@ -788,15 +918,15 @@ background-color: rgba(255, 255, 255, 0.363);
 }
 
     .fondo-middle-especies{ 
-        background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    ;
-    height: 29rem;
+    
+        height: 24rem;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: black;
-        background-image: url(../img/averrr.jpg);
+        color: rgb(0, 0, 0);
+        background-color:#e3efedbc;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }  
 
     .middle-especies { 
@@ -811,6 +941,100 @@ background-color: rgba(255, 255, 255, 0.363);
         word-spacing: normal;
     position:absolute
     }
+
+    .main-especies{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        background-image: url(../img/fondojirafa.jpg);
+        display: flex;
+        flex-direction: column;
+
+    }
+    .titulo-especies{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .info-especies{
+        font-size: 1.7rem;
+        margin-top: 20px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+        padding-bottom: 5rem;
+        background-color:#e3efedde;
+        
+        
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        flex: 1 1 clamp(250px, 100%, 400px);
+        margin-left: 20px;
+    }
+    .box img{
+        width: 328px;
+    }
+    #hipo-pigmeo{
+        width: 316px;
+        height: 219px;
+    }
+    .box-info{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .box-titulo{
+        font-size: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .box-texto{
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    @media screen and (max-width: 975px){
+        .cards{
+            flex-direction: column;
+        }
+            
+        }
+
+
+     @media screen and (max-width: 540px){
+            .box img{
+                    width: 228px;
+            }
+            #hipo-pigmeo{
+                width: 228px;
+                
+            }
+            .fondo-middle-especies p{
+                font-size: 1.7rem;
+            }
+         }
+         @media screen and (max-width: 492px){
+           
+            .fondo-middle-especies p{
+                font-size: 1.1rem;
+            }
+         }
+
+
+
+
+
+
+
+
     .div-tabla{
         padding: 100px;
     

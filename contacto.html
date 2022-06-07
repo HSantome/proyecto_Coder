@@ -7,97 +7,124 @@
     <title>Reserva León</title>
     <link rel="shortcut icon" href="./img/logoblanco.png">
     <link rel="stylesheet" href="./CSS/index.css">
+
 </head>
 <body>
   <header class="elefante-de-fondo">
-    <div>
-        <nav>
-            <ul class="encabezado-elef">
-                <li>
-                    <a href="https://es-la.facebook.com/">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/">Instagram</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <section class="contenedor">
-        <div class="contenedor-logo">
-            <a href="index.html"><img src="./img/logoblanco.png"/></a> 
-        </div>
-        <div class="contenedor-ejemplo">
+        <div>
             <nav>
-                <ul class="links">
+                <ul class="encabezado-elef">
                     <li>
-                        <a href="index.html">INICIO</a>
+                        <a href="https://es-la.facebook.com/">Facebook</a>
                     </li>
                     <li>
-                        <a href="especies.html">ESPECIES</a>
-                    </li>
-                         
-                    <li>
-                        <a href="comoapoyar.html">¿CÓMO APOYAR?</a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">CONTACTO</a>
+                        <a href="https://www.instagram.com/">Instagram</a>
                     </li>
                 </ul>
             </nav>
         </div>
+        <section class="contenedor">
+            <div class="contenedor-logo">
+                <a href="index.html"><img src="./img/logoblanco.png" class="img-fluid"/></a> 
+            </div>
+            <div class="contenedor-ejemplo">
+                <nav>
+                    <ul class="links">
+                        <li>
+                            <a href="index.html">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="especies.html">ESPECIES</a>
+                        </li>
+                             
+                        <li>
+                            <a href="comoapoyar.html">¿CÓMO APOYAR?</a>
+                        </li>
+                        <li>
+                            <a href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+ </header>
+ <main>
+    <section class="fondo-formulario">
+        <div class="fondo-formulario-letras">
+            <h1 class="titulo"> ¿Querés involucrarte?</h1>
+            <p class="letras-main-form">
+                Creemos que el cambio solo se logra trabajando en equipo. Necesitamos de personas que quieran asumir el desafío de generar un cambio positivo en la forma de respetar y relacionarnos con la naturaleza. Postulate acá como voluntario para nuestros programas.
+            </p>
+        </div>
+        <div class="formm">
+            <form action="/paginadondeenviarlosdatos.js" method="get">
+                <label for="name">Nombre:</label>
+                <input type="text" class="fieldd" name="Nombre" >
+                <label for="lname">Apellido:</label>
+                <input type="text" class="fieldd" name="Apellido" >
+                <label for="email">Email:</label>
+                <input type="Email" class="fieldd" name="Email" >
+    
+                <label for="Comentarios">Comentarios</label>
+                <textarea name=" Comentarios" cols="24" rows="5" class="areaa"></textarea>
+            
+    
+    
+                <input class="boton" type="submit" value="Enviar">
+            </form>    
+        </div>
     </section>
-  </header>
-   <section class="fondo-formulario">
-    <div class="fondo-formulario-letras">
-        <h1 class="titulo"> ¿Querés involucrarte?</h1>
-        <p>
-            Creemos que el cambio solo se logra trabajando en equipo. Necesitamos de personas que quieran asumir el desafío de generar un cambio positivo en la forma de respetar y relacionarnos con la naturaleza. Postulate acá como voluntario para nuestros programas.
-        </p>
-    </div>
-    <div class="form">
-        <form action="/paginadondeenviarlosdatos.js" method="get">
-            <label for="name">Nombre:</label>
-            <input type="text" class="field" name="Nombre" >
-            <label for="lname">Apellido:</label>
-            <input type="text" class="field" name="Apellido" >
-            <label for="email">Email:</label>
-            <input type="Email" class="field" name="Email" >
-
-            <label for="Comentarios">Comentarios</label>
-            <textarea name=" Comentarios" cols="24" rows="5" class="area"></textarea>
-        
-
-
-            <input class="boton" type="submit" value="Enviar">
-          </form>
-
-    </div>
-  </section>
+ </main>
+   
   <footer>
     <section class="fondo-de-footer" >
        <span class="fondo-redes-sociales">
            <div class="redes-sociales-texto">
-               <h2>¡Únete a nuestra comunidad!</h2>
+               <h2 class="fw-bold">¡Únete a nuestra comunidad!</h2>
            </div>
            <div class="redes-sociales">
                <picture class="redes-sociales-facebook">
-                   <a href="https://es-la.facebook.com/"> <img src="./img/logofacebook.png"/></a>
+                   <a href="https://es-la.facebook.com/"> <img src="./img/logofacebook.png" class="img-fluid"/></a>
                </picture >
                <picture class= "redes-sociales-instagram">
-                   <a href="https://www.instagram.com/"> <img src="./img/logoinstagram.png"/></a>
+                   <a href="https://www.instagram.com/"> <img src="./img/logoinstagram.png" class="img-fluid"/></a>
                </picture>
            </div>
        </span>
        <span class="fondo-de-logo-footer" >
            <div>
-               <a href="index.html"><img src="./img/logoblanco.png"/></a>
+               <a href="index.html"><img src="./img/logoblanco.png" class="img-fluid" /></a>
            </div>   
        </span> 
        <span class="fondo-info">
-           <p>Contenido</p>
+           <div class="redes-sociales-texto"> 
+               <h2 class="fw-bold">Accesos directos</h2>
+           </div>
+           <div class="vinculos-footer">
+               <nav>
+                   <ul class="fw-bold">
+                       <li>
+                           <a href="index.html">INICIO</a>
+                       </li>
+                       <li>
+                           <a href="especies.html">ESPECIES</a>
+                       </li>
+                            
+                       <li>
+                           <a href="comoapoyar.html">¿CÓMO APOYAR?</a>
+                       </li>
+                       <li>
+                           <a href="nosotros.html">NOSOTROS</a>
+                       </li>
+                       <li>
+                           <a href="contacto.html">CONTACTO</a>
+                       </li>
+                   </ul>
+               </nav>
+           </div>
        </span>
     </section>
     <section>
@@ -111,6 +138,6 @@
            </nav>
        </div>
    </section> 
-</footer>       
+</footer>            
 </body>
 </html>
