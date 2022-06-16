@@ -1,0 +1,9 @@
+$colors: (
+    primary:#ecb85c
+);
+
+@each $color, $value in $colors {
+    .#{$color} {
+        color: #{$value};
+    }
+}

@@ -1,0 +1,61 @@
+.nosotros-fondo{ 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/nosotros2.jpg);
+    height: 76rem;
+
+    .encabezado-noso{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 10px;
+    text-align: end;
+    margin-bottom: 0rem;
+
+                   li{
+                       display: inline-block;
+                        padding: 1px;
+                         color: antiquewhite;
+                         text-decoration: none;
+                         
+                         a{
+                            text-decoration: none;
+                            color: rgb(255, 255, 255);
+                            transition: .8s;
+                        } }}
+
+               .contenedor{
+                            display: flex;
+                            flex-wrap: wrap;
+
+                            .contenedor-logo{
+                                background-color: rgba(13, 13, 13, 0.944);
+                                padding: 10px;
+
+                                img{  width: 10.5em;
+                                      height: 12.5em;
+
+                                }}}
+                                
+                   .contenedor-ejemplo{flex-grow: 1;
+                 }
+
+                   .links{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                           background-color: rgba(13, 13, 13, 0.944);
+                           list-style-type: none;
+                           padding: 1%;
+                           margin-bottom: 0rem;
+
+                           li{ 
+                            display: inline-block;
+                            padding: 10px;
+                            a {
+                                color: rgba(255, 250, 250, 0.925);
+                                text-decoration: none;
+                                font-size: 2em;
+                                transition: .6s;
+                                padding: 25px 25px 25px 25px;
+                                
+                            }}}       
+}

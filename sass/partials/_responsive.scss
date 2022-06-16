@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px){
+    .fondo-formulario{
+        height: 75rem;
+    }  
+    }
+@media screen and (max-width: 951px) {
+    .contenedor-logo{
+        background-color: rgba(13, 13, 13, 0.944);
+        flex-grow: 1;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width: 951px) {
+    .contenedor{
+        font-size: .8em;
+    }
+  }
+
+  @media screen and (max-width: 853px) {
+    .middle-leon{
+        font-size: .8em;
+    }
+    
+}
+
+@media screen and (max-width: 846px) {
+    .fondo-de-nota-leon{
+        font-size: .8em;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .fondo-de-nota-leon{
+        flex-direction: column;
+    }
+    .logo-video{
+        margin-top: 1rem;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .fondo-de-nota-letras-2{
+       width: 1rem;
+    } 
+    .video_index{
+        width: 1rem;
+    }
+}
