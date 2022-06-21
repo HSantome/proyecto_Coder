@@ -10,8 +10,27 @@
         text-align: center;
         flex-wrap: wrap;
     }
-    
 }
+
+    @media screen and (max-width: 951px){
+        .leon-de-fondo{
+            .contenedor{
+                font-size: .8em;
+
+                .contenedor-logo{
+                    background-color: rgba(13, 13, 13, 0.944);
+                    flex-grow: 1;
+                    text-align: center;
+                    flex-wrap: wrap;
+                }
+            }
+
+        }
+
+    }
+
+
+
 @media screen and (max-width: 951px) {
     .contenedor{
         font-size: .8em;
@@ -48,3 +67,187 @@
         width: 1rem;
     }
 }
+
+@media screen and (max-width: 853px) {
+    .middle-leon{
+        font-size: .8em;
+    }
+    
+}
+
+@media screen and (max-width: 846px) {
+    .fondo-de-nota-leon{
+        font-size: .8em;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .fondo-de-nota-leon{
+        flex-direction: column;
+    }
+    .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-2 .video_index .logo-video{
+        margin-top: 0rem;
+        margin-left: 0rem;
+        width: 15rem;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-2 .video_index{
+       width: 1rem;
+       text-align: center;
+    } 
+}
+@media screen and (max-width: 1200px){
+    .main-index .grid-area .grid1 p{padding: 1rem;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .main-index .grid-area .grid2 p{padding: 1rem;
+    }
+    
+}
+@media screen and (max-width: 1247px){
+    .main-index .grid-area .grid3 p{padding: 1rem;
+    }
+    
+}
+@media screen and (max-width: 811px){
+    .main-index .grid-area .grid5 p{padding: 2rem;
+        font-size: .7em;
+    }    
+    .main-index .grid-area .grid5 img{
+        height: 9rem;
+    }
+}
+@media screen and (max-width: 411px){
+    .main-index .grid-area .grid5 p{padding: 1rem;
+        font-size: .5em;
+    }    
+    .main-index .grid-area .grid5 img{
+        height: 8rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .main-index .grid-area{
+        display: flex;
+        flex-direction: column;
+        }
+        .main-index .grid-area .grid1{
+            height: 20rem;
+            flex-grow: 1;
+        }
+        .main-index .grid-area .grid2{
+            height: 20rem;
+            flex-grow: 1;
+        }
+        .main-index .grid-area .grid3{
+            height: 20rem;
+            flex-grow: 1;
+        }
+        .main-index .grid-area .grid4{
+            height: 20rem;
+            flex-grow: 1;
+        }
+        .main-index .grid-area .grid5{
+            height: 20rem;
+            flex-grow: 1;
+        }
+        .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-1 .letras-fondo-elefante{
+            margin-top: 10rem;
+        }
+    
+}
+@media screen and (max-width: 1100px){
+    .fondo-donar{
+        flex-direction: column;
+    }
+} 
+@media screen and (max-width: 500px){
+    .fondo-donar .section-botones .botones{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 975px){
+    .fondo-formulario{
+        text-align: center;
+        align-items: center;
+    }
+    .fondo-formulario .fondo-formulario-letras .letras-main-form{
+        margin-right: 0%;
+    }
+}
+@media screen and (max-width: 700px){
+    .fondo-formulario .fondo-formulario-letras .letras-main-form{
+       font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 480px){
+    .fondo-formulario{
+        height: 75rem;
+    }   
+}
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .main-especies .cards{
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .fondo-de-footer .fondo-redes-sociales .redes-sociales .redes-sociales-instagram img{
+        width: 50px;
+        height: 50px;
+    }  
+    .fondo-de-footer .fondo-redes-sociales .redes-sociales .redes-sociales-facebook img{
+        width: 50px;
+        height: 50px;
+    }  
+    }
+
+
+ @media screen and (max-width: 540px){
+    .main-especies .cards .box img{
+                width: 228px;
+        }
+        #hipo-pigmeo{
+            width: 228px;
+            
+        }
+        .main-especies .fondo-middle-especies .info-especies  {
+            font-size: 1.7rem;
+        }
+     }
+     @media screen and (max-width: 492px){
+       
+        .main-especies .fondo-middle-especies .info-especies  {
+            font-size: 1.2rem;
+        }
+     }
+
+     @media screen and (max-width: 700px){
+        .fondo-nosotros .section-nosotros .nosotros-texto{
+            font-size: 2rem;
+        }
+        .fondo-nosotros .section-nosotros h3{
+            font-size: 2.5rem;
+        }
+        .fondo-nosotros .section-nosotros h1{
+            font-size: 3rem;
+            text-align: center;
+        }
+    }

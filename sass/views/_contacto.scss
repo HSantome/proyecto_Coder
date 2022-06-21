@@ -23,7 +23,12 @@
                             text-decoration: none;
                             color: rgb(255, 255, 255);
                             transition: .8s;
-                        } }}
+                        }
+                        a:hover{
+                            color: $primary;
+                            transform: scale(0,07);
+                            }
+                    }}
 
                .contenedor{
                             display: flex;
@@ -55,7 +60,80 @@
                                 text-decoration: none;
                                 font-size: 2em;
                                 transition: .6s;
+                                padding: 25px 25px 25px 25px;   
+                            }
+                            a:hover{color: rgb(0, 0, 0);
+                                text-transform: uppercase;
+                                transform: scale(0,07);
+                                background: rgb(210, 207, 207);
                                 padding: 25px 25px 25px 25px;
-                                
-                            }}}       
+                            } 
+                        }}       
+}
+
+.fondo-formulario{
+    height: 66rem;
+    background-image: url(../img/fondoformulario.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-size: 3em;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    form{
+        color: rgb(0, 0, 0);
+        text-align: start;
+        width: 217px;
+        padding: 7px;
+        border: 10px; 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+        text-align: start;
+        background-color: rgba(0, 0, 0, 0.248);
+    }
+    .letras-main-form{
+        font-size: 1.8em;
+        color: black;
+    }
+
+    .fondo-formulario-letras{
+        flex-grow: 1;
+        font-family:'Macondo', cursive;
+        margin-top: 3rem;
+        h1{
+            color: #000000;
+            font-family:'Macondo', cursive;
+        }
+        p{
+            color: #000000;
+            font-family:'Macondo', cursive;
+            margin-right: 50rem;
+        }  
+        }
+        .formm{
+            flex-grow: 1;
+
+            .fieldd{
+                border: solid 1px grey;
+                padding: 10px;
+                }
+                .field:focus{
+                    border-color: blueviolet;
+                }
+
+                .boton{
+                    background: #ffc;
+                    border: medium solid rgb(0, 0, 0);
+                    padding: 5px;
+                    font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+                    height: 30px;
+                    width: 75px;
+                    
+                }
+            } 
 }

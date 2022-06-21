@@ -23,7 +23,13 @@
                             text-decoration: none;
                             color: rgb(255, 255, 255);
                             transition: .8s;
-                        } }}
+                        } 
+                         a:hover{
+                            color:$primary;
+                            transform: scale(0,07);
+                            }
+                    
+                    }}
 
                .contenedor{
                             display: flex;
@@ -55,8 +61,165 @@
                                 text-decoration: none;
                                 font-size: 2em;
                                 transition: .6s;
+                                padding: 25px 25px 25px 25px;    
+                            }
+                            a:hover{color: rgb(0, 0, 0);
+                                text-transform: uppercase;
+                                transform: scale(0,07);
+                                background: rgb(210, 207, 207);
                                 padding: 25px 25px 25px 25px;
-                                
-                            }}}       
+                            }      
+                        }}  
+                        
+                        .middle-leon { 
+                            padding: 17%;
+                            height: 30rem;
+                            word-spacing: normal;
+                            position: relative;
+
+                            h1{
+                                color: $primary;
+                                font-family: 'Courier New', Courier, monospace;
+                                font-size: 4em;
+                            }
+
+                            .frase-principal-leon{
+                                font-family:  'Macondo', cursive;
+                                font-size: 3em;
+                                color:rgba(255, 255, 255, 0.822);
+                                word-spacing: normal;
+                                position: absolute;
+                                box-sizing:content-box;
+
+                               
+                            }}
 }
 
+
+.main-index{
+               .fondo-de-nota-leon{  
+                height: 700px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url(../img/elefantess.jpg);
+                display: flex;
+                
+                .fondo-de-nota-letras-leon-1{ 
+                    font-family:  'Macondo', cursive;
+                    font-size: 2em;
+                    color: $primary;
+                    flex-grow: 1;
+                    background-color: rgba(0, 0, 0, 0.689);
+
+                    .letras-fondo-elefante{
+                        margin-top: 17rem;
+                        text-transform: uppercase;
+                        padding: 30px; 
+                    }
+                    p{
+                        text-align: left;
+                        margin-top: 7rem;
+                        color: #ecb85c;
+                    }
+                }
+                .fondo-de-nota-letras-leon-2{ 
+                    font-family:  'Macondo', cursive;
+                    font-size: 2em;
+                    color:black;
+                    flex-grow: 1;
+                    .video_index{
+                        width: 78rem;
+                        .logo-video{
+                            width: 20rem;
+                            text-align: center;
+                            margin-top: 25rem;
+                            margin-left: 27rem;                            
+                            }  }  }
+                }
+
+                .grid-area{
+                    display: grid;
+                    grid-template-columns: 36vw 19vw 44vw ;
+                    grid-template-rows: 35vh 35vh 50vh;
+                    grid-template-areas:
+                    "grid1 grid1 grid2"
+                    "grid3 grid4 grid4"
+                    "grid5 grid5 grid5";
+                
+                    .grid1{ grid-area: grid1;
+                        background-color: #f7f9f8;
+                        font-family:  'Macondo', cursive;
+                        font-size: 2em;
+                        color:#000000d6;
+                     p{
+                        padding: 9rem;
+                    } 
+                }
+                .grid2{ grid-area: grid2;
+                    background-color: #ffffff;
+                    font-family:  'Macondo', cursive;
+                    font-size: 2em;
+                    color:$primary;
+                    p{
+                        padding: 9rem;
+                    }
+                }
+                .grid3{ grid-area: grid3;
+                    background-color: #e3efed;
+                    background-color: #ffffff;
+                    font-family:  'Macondo', cursive;
+                    font-size: 2em;
+                    color:$primary;
+                    p{
+                        padding: 9rem;
+                    }
+                }
+                .grid4{ grid-area: grid4;
+                    background-image: url(../img/fondozebra.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                }
+                .grid5{grid-area: grid5;
+                    background-color: #000000;
+                    font-family:  'Macondo', cursive;
+                    font-size: 3em;
+                    color:#ffffff;
+                    text-align: center;
+                    p{
+                        padding: 4rem;
+                        text-align: center;
+                    }
+                    img{
+                        height: 12rem; 
+                        text-align: center;
+                    }
+                    .span{
+                        display: flex;
+                        flex-direction: row; 
+                        .national{
+                            flex-grow: 1;
+                            transition: all .3s linear;
+                        }
+                        .national:hover{    
+                            transform: scale(1.1, 1.1);
+                            }
+                        .safe{
+                            flex-grow: 1;
+                            transition: all .3s linear;
+                        }
+                        .safe:hover{
+                            transform: scale(1.1, 1.1);
+                            }
+                        .eaza{
+                            flex-grow: 1;
+                            transition: all .3s linear;
+                        }
+                        .eaza:hover{
+                            transform: scale(1.1, 1.1);
+                            }
+                        }
+                }
+                }
+    }

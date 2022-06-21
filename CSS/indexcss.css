@@ -1,8 +1,128 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  font-size: 62.5%; }
+
 .primary {
   color: #ecb85c; }
 
-p {
-  font-size: larger; }
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  font-size: 62.5%; }
+
+.fondo-de-footer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/dried-golden-grass.jpg);
+  background-color: rgba(13, 13, 13, 0.973);
+  display: flex;
+  flex-wrap: wrap; }
+  .fondo-de-footer h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center; }
+  .fondo-de-footer .fondo-redes-sociales {
+    background-color: rgba(218, 165, 32, 0.566);
+    font-family: 'Macondo', cursive;
+    color: black;
+    width: 300px;
+    height: 200px;
+    flex-grow: 1; }
+    .fondo-de-footer .fondo-redes-sociales .redes-sociales-texto {
+      text-align: center;
+      font-size: 6em;
+      margin-top: 2rem;
+      font-size: 6em; }
+    .fondo-de-footer .fondo-redes-sociales .redes-sociales {
+      display: flex;
+      text-align: center;
+      margin-left: 7.4rem;
+      margin-right: 7.4rem;
+      margin-bottom: 2rem; }
+      .fondo-de-footer .fondo-redes-sociales .redes-sociales .redes-sociales-facebook img {
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+        transition: all .3s linear; }
+      .fondo-de-footer .fondo-redes-sociales .redes-sociales .redes-sociales-facebook img:hover {
+        transform: scale(1.3, 1.3); }
+      .fondo-de-footer .fondo-redes-sociales .redes-sociales .redes-sociales-instagram img {
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+        transition: all .3s linear; }
+  .fondo-de-footer .fondo-de-logo-footer {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.952);
+    flex-grow: 1;
+    text-align: center; }
+    .fondo-de-footer .fondo-de-logo-footer img {
+      width: 105px;
+      height: 125px;
+      margin-top: 34px;
+      text-align: center;
+      max-width: 100%;
+      max-height: 100%; }
+  .fondo-de-footer .fondo-info {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(218, 165, 32, 0.566);
+    flex-grow: 1;
+    text-decoration: none; }
+    .fondo-de-footer .fondo-info .redes-sociales-texto h2 {
+      margin-top: 2rem;
+      color: black; }
+    .fondo-de-footer .fondo-info .vinculos-footer {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      list-style-type: none;
+      text-align: center;
+      text-transform: uppercase; }
+      .fondo-de-footer .fondo-info .vinculos-footer ul {
+        margin-top: 2rem; }
+      .fondo-de-footer .fondo-info .vinculos-footer li {
+        list-style-type: none; }
+        .fondo-de-footer .fondo-info .vinculos-footer li a {
+          color: black;
+          text-decoration: none;
+          font-size: 1.5em; }
+        .fondo-de-footer .fondo-info .vinculos-footer li a:hover {
+          color: #ffffff;
+          transform: scale(0, 7); }
+
+.final-pagina {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  background-color: black;
+  padding: 20px;
+  text-align: end;
+  margin-bottom: 0rem; }
+  .final-pagina li {
+    display: inline;
+    padding: 10px;
+    color: goldenrod; }
+
+.redes-sociales-instagram {
+  border: 3px solid red; }
+
+.redes-sociales-facebook {
+  border: 3px solid blue; }
+
+.redes-sociales-instagram {
+  flex-grow: 1; }
+
+.redes-sociales-facebook {
+  flex-grow: 1; }
+
+@media screen and (max-width: 500px) {
+  .redes-sociales p {
+    font-size: .5em; } }
 
 .leon-de-fondo {
   background-position: center;
@@ -26,6 +146,9 @@ p {
         text-decoration: none;
         color: white;
         transition: .8s; }
+      .leon-de-fondo .encabezado li a:hover {
+        color: #ecb85c;
+        transform: scale(0, 7); }
   .leon-de-fondo .contenedor {
     display: flex;
     flex-wrap: wrap; }
@@ -52,6 +175,130 @@ p {
         font-size: 2em;
         transition: .6s;
         padding: 25px 25px 25px 25px; }
+      .leon-de-fondo .links li a:hover {
+        color: black;
+        text-transform: uppercase;
+        transform: scale(0, 7);
+        background: #d2cfcf;
+        padding: 25px 25px 25px 25px; }
+  .leon-de-fondo .middle-leon {
+    padding: 17%;
+    height: 30rem;
+    word-spacing: normal;
+    position: relative; }
+    .leon-de-fondo .middle-leon h1 {
+      color: #ecb85c;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 4em; }
+    .leon-de-fondo .middle-leon .frase-principal-leon {
+      font-family: 'Macondo', cursive;
+      font-size: 3em;
+      color: rgba(255, 255, 255, 0.822);
+      word-spacing: normal;
+      position: absolute;
+      box-sizing: content-box; }
+
+.main-index .fondo-de-nota-leon {
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/elefantess.jpg);
+  display: flex; }
+  .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-1 {
+    font-family: 'Macondo', cursive;
+    font-size: 2em;
+    color: #ecb85c;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.689); }
+    .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-1 .letras-fondo-elefante {
+      margin-top: 17rem;
+      text-transform: uppercase;
+      padding: 30px; }
+    .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-1 p {
+      text-align: left;
+      margin-top: 7rem;
+      color: #ecb85c; }
+  .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-2 {
+    font-family: 'Macondo', cursive;
+    font-size: 2em;
+    color: black;
+    flex-grow: 1; }
+    .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-2 .video_index {
+      width: 78rem; }
+      .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-2 .video_index .logo-video {
+        width: 20rem;
+        text-align: center;
+        margin-top: 25rem;
+        margin-left: 27rem; }
+
+.main-index .grid-area {
+  display: grid;
+  grid-template-columns: 36vw 19vw 44vw;
+  grid-template-rows: 35vh 35vh 50vh;
+  grid-template-areas: "grid1 grid1 grid2" "grid3 grid4 grid4" "grid5 grid5 grid5"; }
+  .main-index .grid-area .grid1 {
+    grid-area: grid1;
+    background-color: #f7f9f8;
+    font-family: 'Macondo', cursive;
+    font-size: 2em;
+    color: #000000d6; }
+    .main-index .grid-area .grid1 p {
+      padding: 9rem; }
+  .main-index .grid-area .grid2 {
+    grid-area: grid2;
+    background-color: #ffffff;
+    font-family: 'Macondo', cursive;
+    font-size: 2em;
+    color: #ecb85c; }
+    .main-index .grid-area .grid2 p {
+      padding: 9rem; }
+  .main-index .grid-area .grid3 {
+    grid-area: grid3;
+    background-color: #e3efed;
+    background-color: #ffffff;
+    font-family: 'Macondo', cursive;
+    font-size: 2em;
+    color: #ecb85c; }
+    .main-index .grid-area .grid3 p {
+      padding: 9rem; }
+  .main-index .grid-area .grid4 {
+    grid-area: grid4;
+    background-image: url(../img/fondozebra.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .main-index .grid-area .grid5 {
+    grid-area: grid5;
+    background-color: #000000;
+    font-family: 'Macondo', cursive;
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center; }
+    .main-index .grid-area .grid5 p {
+      padding: 4rem;
+      text-align: center; }
+    .main-index .grid-area .grid5 img {
+      height: 12rem;
+      text-align: center; }
+    .main-index .grid-area .grid5 .span {
+      display: flex;
+      flex-direction: row; }
+      .main-index .grid-area .grid5 .span .national {
+        flex-grow: 1;
+        transition: all .3s linear; }
+      .main-index .grid-area .grid5 .span .national:hover {
+        transform: scale(1.1, 1.1); }
+      .main-index .grid-area .grid5 .span .safe {
+        flex-grow: 1;
+        transition: all .3s linear; }
+      .main-index .grid-area .grid5 .span .safe:hover {
+        transform: scale(1.1, 1.1); }
+      .main-index .grid-area .grid5 .span .eaza {
+        flex-grow: 1;
+        transition: all .3s linear; }
+      .main-index .grid-area .grid5 .span .eaza:hover {
+        transform: scale(1.1, 1.1); }
 
 .hipopotamo-de-fondo {
   background-position: center;
@@ -75,6 +322,9 @@ p {
         text-decoration: none;
         color: white;
         transition: .8s; }
+      .hipopotamo-de-fondo .encabezado-hipo li a:hover {
+        color: #ecb85c;
+        transform: scale(0, 7); }
   .hipopotamo-de-fondo .contenedor {
     display: flex;
     flex-wrap: wrap; }
@@ -101,6 +351,66 @@ p {
         font-size: 2em;
         transition: .6s;
         padding: 25px 25px 25px 25px; }
+      .hipopotamo-de-fondo .links li a:hover {
+        color: black;
+        text-transform: uppercase;
+        transform: scale(0, 7);
+        background: #d2cfcf;
+        padding: 25px 25px 25px 25px; }
+
+.fondo-donar {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/fondojirafa.jpg);
+  display: flex;
+  flex-direction: row-reverse; }
+  .fondo-donar .segunda-parte {
+    padding: 112px;
+    padding: 112px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Macondo', cursive;
+    font-size: 1.7em; }
+  .fondo-donar .section-botones {
+    background-color: #000000c4;
+    color: white;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    .fondo-donar .section-botones .quiero-ayudar {
+      margin-top: 10rem;
+      font-size: 1.7em; }
+    .fondo-donar .section-botones .botones {
+      color: white;
+      padding: 112px;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 10rem; }
+      .fondo-donar .section-botones .botones .haz-un-donativo, .fondo-donar .section-botones .botones .se-voluntario {
+        background: #dee6de;
+        border: medium solid black;
+        padding: 20px;
+        font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+        height: 30px;
+        width: 75px;
+        font-size: 20px;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 175px;
+        height: 100px; }
+        .fondo-donar .section-botones .botones .haz-un-donativo a, .fondo-donar .section-botones .botones .se-voluntario a {
+          text-decoration: none;
+          color: #000000; }
+      .fondo-donar .section-botones .botones .se-voluntario a {
+        text-decoration: none;
+        color: #000000; }
 
 .elefante-de-fondo {
   background-image: url(../img/fondo.jpg);
@@ -124,6 +434,9 @@ p {
         text-decoration: none;
         color: white;
         transition: .8s; }
+      .elefante-de-fondo .encabezado-elef li a:hover {
+        color: #ecb85c;
+        transform: scale(0, 7); }
   .elefante-de-fondo .contenedor {
     display: flex;
     flex-wrap: wrap; }
@@ -150,6 +463,63 @@ p {
         font-size: 2em;
         transition: .6s;
         padding: 25px 25px 25px 25px; }
+      .elefante-de-fondo .links li a:hover {
+        color: black;
+        text-transform: uppercase;
+        transform: scale(0, 7);
+        background: #d2cfcf;
+        padding: 25px 25px 25px 25px; }
+
+.fondo-formulario {
+  height: 66rem;
+  background-image: url(../img/fondoformulario.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column; }
+  .fondo-formulario h1 {
+    font-size: 3em;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .fondo-formulario form {
+    color: black;
+    text-align: start;
+    width: 217px;
+    padding: 7px;
+    border: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0.248); }
+  .fondo-formulario .letras-main-form {
+    font-size: 1.8em;
+    color: black; }
+  .fondo-formulario .fondo-formulario-letras {
+    flex-grow: 1;
+    font-family: 'Macondo', cursive;
+    margin-top: 3rem; }
+    .fondo-formulario .fondo-formulario-letras h1 {
+      color: #000000;
+      font-family: 'Macondo', cursive; }
+    .fondo-formulario .fondo-formulario-letras p {
+      color: #000000;
+      font-family: 'Macondo', cursive;
+      margin-right: 50rem; }
+  .fondo-formulario .formm {
+    flex-grow: 1; }
+    .fondo-formulario .formm .fieldd {
+      border: solid 1px grey;
+      padding: 10px; }
+    .fondo-formulario .formm .field:focus {
+      border-color: blueviolet; }
+    .fondo-formulario .formm .boton {
+      background: #ffc;
+      border: medium solid black;
+      padding: 5px;
+      font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+      height: 30px;
+      width: 75px; }
 
 .especies-de-fondo {
   background-position: center;
@@ -173,6 +543,9 @@ p {
         text-decoration: none;
         color: white;
         transition: .8s; }
+      .especies-de-fondo .encabezado-especies li a:hover {
+        color: #ecb85c;
+        transform: scale(0, 7); }
   .especies-de-fondo .contenedor {
     display: flex;
     flex-wrap: wrap; }
@@ -199,6 +572,78 @@ p {
         font-size: 2em;
         transition: .6s;
         padding: 25px 25px 25px 25px; }
+      .especies-de-fondo .links li a:hover {
+        color: black;
+        text-transform: uppercase;
+        transform: scale(0, 7);
+        background: #d2cfcf;
+        padding: 25px 25px 25px 25px; }
+
+.main-especies {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-image: url(../img/fondojirafa.jpg);
+  display: flex;
+  flex-direction: column; }
+  .main-especies .fondo-middle-especies {
+    height: 24rem;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #e3efedbc;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+    .main-especies .fondo-middle-especies .titulo-especies {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 50px; }
+    .main-especies .fondo-middle-especies .info-especies {
+      font-size: 1.7rem; }
+  .main-especies .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 5rem;
+    background-color: #e3efedde; }
+    .main-especies .cards .box {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      flex: 1 1 clamp(250px, 100%, 400px);
+      margin-left: 20px; }
+      .main-especies .cards .box-img-rinoceronte {
+        margin-top: 1.5em; }
+      .main-especies .cards .box-img-hipopotamo {
+        margin-top: 1.5em; }
+      .main-especies .cards .box-img-guepardo {
+        margin-top: 1.5em; }
+      .main-especies .cards .box-img-burro {
+        margin-top: 1.5em; }
+      .main-especies .cards .box-img-chimpance {
+        margin-top: 1.5em; }
+      .main-especies .cards .box-img-elefante {
+        margin-top: 1.5em; }
+      .main-especies .cards .box img {
+        width: 328px; }
+      .main-especies .cards .box-info {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px; }
+      .main-especies .cards .box-titulo {
+        font-size: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+      .main-especies .cards .box-texto {
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+#hipo-pigmeo {
+  width: 316px;
+  height: 219px; }
 
 .nosotros-fondo {
   background-position: center;
@@ -222,6 +667,9 @@ p {
         text-decoration: none;
         color: white;
         transition: .8s; }
+      .nosotros-fondo .encabezado-noso li a:hover {
+        color: #ecb85c;
+        transform: scale(0, 7); }
   .nosotros-fondo .contenedor {
     display: flex;
     flex-wrap: wrap; }
@@ -248,116 +696,38 @@ p {
         font-size: 2em;
         transition: .6s;
         padding: 25px 25px 25px 25px; }
+      .nosotros-fondo .links li a:hover {
+        color: black;
+        text-transform: uppercase;
+        transform: scale(0, 7);
+        background: #d2cfcf;
+        padding: 25px 25px 25px 25px; }
 
-.fondo-de footer .fondo-redes-sociales {
-  background-color: rgba(218, 165, 32, 0.566);
-  font-family: 'Macondo', cursive;
-  color: black;
-  width: 300px;
-  height: 200px;
-  flex-grow: 1; }
-  .fondo-de footer .fondo-redes-sociales .redes-sociales-texto {
-    text-align: center;
-    font-size: 6em;
-    margin-top: 2rem;
-    font-size: 6em; }
-  .fondo-de footer .fondo-redes-sociales .redes-sociales {
-    display: flex;
-    text-align: center;
-    margin-left: 7.4rem;
-    margin-right: 7.4rem;
-    margin-bottom: 2rem; }
-    .fondo-de footer .fondo-redes-sociales .redes-sociales img {
-      width: 80px;
-      height: 80px;
-      margin-top: 40px;
-      transition: all .3s linear; }
-
-.redes-sociales-instagram {
-  border: 3px solid red; }
-
-.redes-sociales-facebook {
-  border: 3px solid blue; }
-
-.redes-sociales-instagram {
-  flex-grow: 1; }
-
-.redes-sociales-facebook {
-  flex-grow: 1; }
-
-.redes-sociales img:hover {
-  transform: scale(1.3, 1.3); }
-
-@media screen and (max-width: 500px) {
-  .redes-sociales p {
-    font-size: .5em; } }
-
-.fondo-de-footer {
+.fondo-nosotros {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/dried-golden-grass.jpg);
-  background-color: rgba(13, 13, 13, 0.973);
-  display: flex;
-  flex-wrap: wrap; }
-
-.fondo-de-logo-footer {
-  width: 300px;
-  height: 200px;
-  background-color: rgba(0, 0, 0, 0.952);
-  flex-grow: 1;
-  text-align: center; }
-
-.fondo-de-logo-footer img {
-  width: 105px;
-  height: 125px;
-  margin-top: 34px; }
-
-.fondo-de-logo-footer img {
-  text-align: center;
-  max-width: 100%;
-  max-height: 100%; }
-
-.fondo-info {
-  width: 300px;
-  height: 200px;
-  background-color: rgba(218, 165, 32, 0.566);
-  flex-grow: 1;
-  text-decoration: none; }
-
-.final-pagina {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1em;
-  background-color: black;
-  padding: 20px;
-  text-align: end;
-  margin-bottom: 0rem; }
-
-.final-pagina li {
-  display: inline;
-  padding: 10px;
-  color: goldenrod; }
-
-.vinculos-footer {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  list-style-type: none;
-  text-align: center;
-  text-transform: uppercase; }
-
-.vinculos-footer ul {
-  margin-top: 2rem; }
-
-.vinculos-footer li {
-  list-style-type: none; }
-
-.vinculos-footer li a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.5em; }
-
-.vinculos-footer li a:hover {
-  color: #ffffff;
-  transform: scale(0, 7); }
+  background-image: url(../img/fondoleon.jpg); }
+  .fondo-nosotros .section-nosotros {
+    padding: 20px;
+    background-image: linear-gradient(to right top, #e6db77b2, #e4dc6aab, #e2db5caf, #dfdd4db5, #dcdc3ca8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: black;
+    word-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+    .fondo-nosotros .section-nosotros .segunda-nosotros-div1 {
+      background-color: rgba(0, 0, 0, 0.023);
+      padding: 10px;
+      width: 10px;
+      width: 10px; }
+    .fondo-nosotros .section-nosotros .segunda-nosotros-ul {
+      margin-left: 3rem; }
+    .fondo-nosotros .section-nosotros .nosotros-texto {
+      font-family: 'Macondo', cursive;
+      font-size: 3rem; }
 
 @media screen and (max-width: 1200px) {
   .fondo-formulario {
@@ -369,6 +739,15 @@ p {
     flex-grow: 1;
     text-align: center;
     flex-wrap: wrap; } }
+
+@media screen and (max-width: 951px) {
+  .leon-de-fondo .contenedor {
+    font-size: .8em; }
+    .leon-de-fondo .contenedor .contenedor-logo {
+      background-color: rgba(13, 13, 13, 0.944);
+      flex-grow: 1;
+      text-align: center;
+      flex-wrap: wrap; } }
 
 @media screen and (max-width: 951px) {
   .contenedor {
@@ -393,3 +772,129 @@ p {
     width: 1rem; }
   .video_index {
     width: 1rem; } }
+
+@media screen and (max-width: 853px) {
+  .middle-leon {
+    font-size: .8em; } }
+
+@media screen and (max-width: 846px) {
+  .fondo-de-nota-leon {
+    font-size: .8em; } }
+
+@media screen and (max-width: 1200px) {
+  .fondo-de-nota-leon {
+    flex-direction: column; }
+  .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-2 .video_index .logo-video {
+    margin-top: 0rem;
+    margin-left: 0rem;
+    width: 15rem;
+    text-align: center; } }
+
+@media screen and (max-width: 800px) {
+  .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-2 .video_index {
+    width: 1rem;
+    text-align: center; } }
+
+@media screen and (max-width: 1200px) {
+  .main-index .grid-area .grid1 p {
+    padding: 1rem; } }
+
+@media screen and (max-width: 1200px) {
+  .main-index .grid-area .grid2 p {
+    padding: 1rem; } }
+
+@media screen and (max-width: 1247px) {
+  .main-index .grid-area .grid3 p {
+    padding: 1rem; } }
+
+@media screen and (max-width: 811px) {
+  .main-index .grid-area .grid5 p {
+    padding: 2rem;
+    font-size: .7em; }
+  .main-index .grid-area .grid5 img {
+    height: 9rem; } }
+
+@media screen and (max-width: 411px) {
+  .main-index .grid-area .grid5 p {
+    padding: 1rem;
+    font-size: .5em; }
+  .main-index .grid-area .grid5 img {
+    height: 8rem; } }
+
+@media screen and (max-width: 500px) {
+  .main-index .grid-area {
+    display: flex;
+    flex-direction: column; }
+  .main-index .grid-area .grid1 {
+    height: 20rem;
+    flex-grow: 1; }
+  .main-index .grid-area .grid2 {
+    height: 20rem;
+    flex-grow: 1; }
+  .main-index .grid-area .grid3 {
+    height: 20rem;
+    flex-grow: 1; }
+  .main-index .grid-area .grid4 {
+    height: 20rem;
+    flex-grow: 1; }
+  .main-index .grid-area .grid5 {
+    height: 20rem;
+    flex-grow: 1; }
+  .main-index .fondo-de-nota-leon .fondo-de-nota-letras-leon-1 .letras-fondo-elefante {
+    margin-top: 10rem; } }
+
+@media screen and (max-width: 1100px) {
+  .fondo-donar {
+    flex-direction: column; } }
+
+@media screen and (max-width: 500px) {
+  .fondo-donar .section-botones .botones {
+    flex-direction: column; } }
+
+@media screen and (max-width: 975px) {
+  .fondo-formulario {
+    text-align: center;
+    align-items: center; }
+  .fondo-formulario .fondo-formulario-letras .letras-main-form {
+    margin-right: 0%; } }
+
+@media screen and (max-width: 700px) {
+  .fondo-formulario .fondo-formulario-letras .letras-main-form {
+    font-size: 1.7rem; } }
+
+@media screen and (max-width: 480px) {
+  .fondo-formulario {
+    height: 75rem; } }
+
+@media screen and (max-width: 1100px) {
+  .main-especies .cards {
+    flex-direction: column;
+    align-content: center;
+    text-align: center; }
+  .fondo-de-footer .fondo-redes-sociales .redes-sociales .redes-sociales-instagram img {
+    width: 50px;
+    height: 50px; }
+  .fondo-de-footer .fondo-redes-sociales .redes-sociales .redes-sociales-facebook img {
+    width: 50px;
+    height: 50px; } }
+
+@media screen and (max-width: 540px) {
+  .main-especies .cards .box img {
+    width: 228px; }
+  #hipo-pigmeo {
+    width: 228px; }
+  .main-especies .fondo-middle-especies .info-especies {
+    font-size: 1.7rem; } }
+
+@media screen and (max-width: 492px) {
+  .main-especies .fondo-middle-especies .info-especies {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 700px) {
+  .fondo-nosotros .section-nosotros .nosotros-texto {
+    font-size: 2rem; }
+  .fondo-nosotros .section-nosotros h3 {
+    font-size: 2.5rem; }
+  .fondo-nosotros .section-nosotros h1 {
+    font-size: 3rem;
+    text-align: center; } }
