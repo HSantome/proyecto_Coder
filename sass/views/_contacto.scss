@@ -84,6 +84,7 @@
         font-size: 3em;
         color: black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 3rem;
     }
     form{
         color: rgb(0, 0, 0);
@@ -95,6 +96,7 @@
         font-size: x-large;
         text-align: start;
         background-color: rgba(0, 0, 0, 0.248);
+        margin-left: 3rem;
     }
     .letras-main-form{
         font-size: 1.8em;
@@ -104,15 +106,18 @@
     .fondo-formulario-letras{
         flex-grow: 1;
         font-family:'Macondo', cursive;
-        margin-top: 3rem;
+        margin-top: 1rem;
         h1{
             color: #000000;
             font-family:'Macondo', cursive;
+            margin-left: 3rem;
         }
         p{
             color: #000000;
             font-family:'Macondo', cursive;
             margin-right: 50rem;
+            margin-left: 3rem;
+            margin-top: 1rem;
         }  
         }
         .formm{
