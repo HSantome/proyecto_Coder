@@ -508,7 +508,7 @@ html {
     margin-top: 1rem; }
     .fondo-formulario .fondo-formulario-letras h1 {
       color: #000000;
-      font-family: 'Macondo', cursive;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       margin-left: 3rem; }
     .fondo-formulario .fondo-formulario-letras p {
       color: #000000;
@@ -614,7 +614,7 @@ html {
       font-size: 2rem;
       margin-top: 3rem;
       margin-left: 2rem;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+      font-family: 'Macondo', cursive; }
   .main-especies .cards {
     display: flex;
     flex-direction: row;
@@ -830,7 +830,7 @@ html {
 @media screen and (max-width: 411px) {
   .main-index .grid-area .grid5 p {
     padding: 1rem;
-    font-size: .5em; }
+    font-size: .7em; }
   .main-index .grid-area .grid5 img {
     height: 8rem; } }
 
@@ -869,7 +869,8 @@ html {
     text-align: center;
     align-items: center; }
   .fondo-formulario .fondo-formulario-letras .letras-main-form {
-    margin-right: 0%; } }
+    margin-right: 0%;
+    margin-left: 0%; } }
 
 @media screen and (max-width: 700px) {
   .fondo-formulario .fondo-formulario-letras .letras-main-form {
